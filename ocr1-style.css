@@ -1,0 +1,332 @@
+* {
+    margin: 0;
+}
+a {
+    color: black;
+}
+.logo-robbie-lens {
+    width: 100%;
+    max-width: 100px;
+    height: 100%;
+    max-width: 100px;
+}
+.logo-x {
+    width: 100%;
+    max-width: 50px;
+    height: 100%;
+    max-height: 50px;
+}
+.logo-insta {
+    width: 100%;
+    max-width: 50px;
+    height: 100%;
+    max-height: 50px;
+}
+.icon-effect:hover {
+    opacity: 0.5;
+}
+em {
+    font-style: normal;
+}
+h1 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 3.5em;
+    color: #A5B4FC;
+}
+p {
+    font-family: 'Manrope', sans-serif;
+    font-size: 1.1em;
+}
+li{
+    font-family: 'Manrope', sans-serif;
+    font-size: 1em;
+}
+a {
+    font-family: 'Manrope', sans-serif;
+    font-size: 1em;
+    text-decoration: none;
+    color: #242424;
+}
+a:hover {
+    text-decoration: underline;
+}
+header, footer {
+    background-color: white;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+body {
+    background-color: #1F2039;
+    font-size: 1em;
+}
+h2, p, li {
+    color: #F9F8FF;
+}
+.portfolio {
+    background: linear-gradient(#8E86B5,#ACAEED);
+    font-family: 'Manrope', sans-serif;
+    color: white;
+    border-radius: 50px;
+    padding-top: 1em;
+    padding-bottom: 1em;
+    padding-left: 2em;
+    padding-right: 2em;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin: auto;
+    width: 200px;
+
+}
+.contact {
+    background: linear-gradient(#8E86B5,#ACAEED);
+    font-family: 'Manrope', sans-serif;
+    color: white;
+    font-size: 1em;
+    border-radius: 50px;
+    padding-top: 1em;
+    padding-bottom: 1em;
+    padding-left: 2em;
+    padding-right: 2em;
+    display: inline-block;
+    margin-top: 50px;
+    margin-left: 15%;
+}
+.portfolio, .contact :hover {
+    background: linear-gradient(#8E86B5,#ACAEED);
+}
+.carre-contenu {
+    border-bottom: 1px #8e86b5 solid;
+    border-right: 1px #8e86b5 solid;
+    padding-right: 80px;
+    padding-bottom: 80px;
+    padding-top: 30px;
+    padding-left: 30px;
+    margin: 30px;
+}
+.carre-contenu h2 {
+    margin-top: 30px;
+}
+.carre-contenu ul {
+    margin-top: 30px;
+}
+section {
+    padding: 80px;
+}
+.apropos-main {
+    width: 80%;
+    margin: auto;
+}
+footer, nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: nowrap;
+}
+.accueil-introduction {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin: 5em;
+    width: 50%;
+}
+.accueil-introduction .robbie-lens {
+    padding-left: 4em;
+    border-bottom: 1px #8e86b5 solid;
+    border-right: 1px #8e86b5 solid;
+    padding: 30px;
+}
+.accueil-introduction h1 {
+    padding-bottom: 0.7em;
+}
+nav a {
+    margin-left: 30px;
+}  
+.accueil-photos {
+    background-color: white;
+    padding: 80px;
+}
+.accueil-photos h2 {
+    font-family: 'Manrope', sans-serif;
+    font-size: 2em;
+    color: #242424;
+    text-align: center;
+    margin-bottom: 80px;
+}
+.accueil-photos div {
+    display: flex;
+    flex-direction: row;
+    gap: 15px;
+    justify-content: center;
+    margin-bottom: 15px;
+}
+.portfolio-section-photos {
+    background-color: white;
+}
+.portfolio-section-photos h2 {
+    font-family: 'Manrope', sans-serif;
+    color: #242424;
+    font-size: 2em;
+    margin-bottom: 80px;
+}
+.grid-paysages {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 300px 300px 300px;
+    gap: 15px;
+    margin-bottom: 80px;
+}
+.grid-portraits {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 300px 300px;
+    gap: 15px;
+}
+.grid-paysages img,
+  .grid-portraits img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.lien-conteneur-photo {
+    position: relative;
+}
+.photo-hover {
+    display: flex;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    right: 0px;
+    bottom: 0px;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font-size: 1.5em;
+    background-color: black;
+    opacity: 0.70;
+    display: none;
+
+}
+.lien-conteneur-photo:hover .photo-hover {
+display: flex;
+}
+table {
+    border-collapse: collapse;
+    margin: auto;
+}
+td {
+    border: 1px #8e86b5 solid;
+    margin: auto;
+    padding: 50px;
+    padding-left: 100px;
+    padding-right: 100px;
+    color: white;
+    font-family: 'Manrope', sans-serif;
+    font-size: 1.1em;
+}
+th {
+    border: 1px #8e86b5 solid;
+    margin: auto;
+    padding: 5px;
+    padding-left: 100px;
+    padding-right: 100px;
+    color: white;
+    font-family: 'Manrope', sans-serif;
+    font-size: 1.1em;
+}
+.grille-tarifaire h1 {
+    padding-bottom: 60px;
+}
+:focus {
+    background-color: #e2e0eb;
+}
+.section-contact h2 {
+    font-family: 'Manrope', sans-serif;
+    color: #a5b4fc;
+    font-size: 2em;
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+form {
+display: flex;
+flex-direction: column;
+width: 40%;
+margin: auto;
+color: white;
+}
+
+.form-nom-email {
+display: flex;
+flex-direction: row;
+gap: 20px;
+}
+
+.form-column {
+flex: 1;
+display: flex;
+flex-direction: column;
+margin-bottom: 20px;
+}
+
+input,
+textarea {
+padding: 15px;
+border-radius: 3px;
+border: none;
+}
+
+label {
+margin-bottom: 10px;
+}
+
+input[type='submit'] {
+width: 200px;
+margin: auto;
+margin-top: 30px;
+}
+
+
+
+@media screen and (max-width: 996px) {
+    .accueil-introduction {
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    .accueil-introduction div {
+        padding-right: 0;
+        text-align: center;
+        order: 2;
+      }
+      .accueil-introduction .robbie-lens {
+        order: 1;
+        margin-bottom: 60px;
+        width: 100%;
+      }
+    .accueil-photos div {
+        flex-direction: column;
+    }
+    .form-nom-email {
+        flex-direction: column;
+        gap: 0;
+    }
+    .accueil-photos {
+        padding: 20px;
+    }
+    .section-contact {
+        padding: 50px 20px;
+    }
+    footer, footer div, nav, nav div {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    header, footer {
+
+    }
+}
